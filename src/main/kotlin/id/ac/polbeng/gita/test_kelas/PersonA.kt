@@ -1,5 +1,4 @@
 package id.ac.polbeng.gita.test_kelas
-
 class PersonA (_firstName: String, _lastName: String, _age: Int) {
     var firstName:String
     var lastName:String
@@ -10,7 +9,6 @@ class PersonA (_firstName: String, _lastName: String, _age: Int) {
         age = _age
     }
 }
-
 fun main() {
     val budi = PersonA("Budi", "Gunawan", 21)
     println("Name : ${budi.firstName}")

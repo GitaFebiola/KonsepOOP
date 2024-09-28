@@ -1,5 +1,4 @@
 package id.ac.polbeng.gita.test_kelas
-
 class InitOrder(name: String) {
     val firstProperty = "First property: $name".also(::println)
     init {

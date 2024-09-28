@@ -1,5 +1,4 @@
 package id.ac.polbeng.gita.test_kelas
-
 class Greeter {
     var text: String = ""
     fun greet() {
