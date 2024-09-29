@@ -1,5 +1,4 @@
 package id.ac.polbeng.gita.test_kelas
-
 // Child class (initializes the parent class)
 class LaptopB : Computer{
     val batteryLife: Double
@@ -18,7 +17,6 @@ class LaptopB : Computer{
         println("Brand : $brand")
         println("Battery Life : $batteryLife")
     }
-
 }
 fun main(){
     val myLaptop = LaptopB("ASus Think Pad", "Asus")

@@ -1,5 +1,4 @@
 package id.ac.polbeng.gita.test_kelas
-
 class PersonF (val firstName: String, val lastName: String) {
     init {
         println("Sedang inisialisasi wak")
@@ -19,9 +18,7 @@ class PersonF (val firstName: String, val lastName: String) {
         println("Age: $_age")
         println("Country: $_country")
         println()
-    }
-}
-
+    } }
 fun main() {
     val anton = PersonF("Anton", "Sejati")
     val budi = PersonF("Budi", "Gunawan", 21)

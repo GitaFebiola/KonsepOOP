@@ -1,5 +1,4 @@
 package id.ac.polbeng.gita.test_kelas
-
 class PersonE {
     var firstName: String
     var lastName: String
@@ -16,7 +15,6 @@ class PersonE {
         println("Age : ${age}")
     }
 }
-
 fun main() {
     val anton = PersonE("frank", "Lampard")
     anton.cetakInfo()
