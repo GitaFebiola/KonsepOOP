@@ -1,7 +1,5 @@
 package id.ac.polbeng.gita.test_kelas
-
 import java.util.*
-
 open class Base(val name: String) {
     init {
         println("Initializing Base")
@@ -11,7 +9,8 @@ open class Base(val name: String) {
     }
 }
 class Devired(name: String, val lastName: String) :
-        Base(name.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }.also { println("Argument for Base: $it") }) {
+        Base(name.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault())
+        else it.toString() }.also { println("Argument for Base: $it") }) {
             init {
                 println("Initializing Devired")
             }
@@ -20,6 +19,6 @@ class Devired(name: String, val lastName: String) :
     }
         }
 fun main() {
-    val turunan = Devired("Gita", "Enda")
+    val turunan = Devired("Gita", "Febiola")
     turunan.size
 }
